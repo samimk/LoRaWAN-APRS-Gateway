@@ -6,5 +6,9 @@ The script works with **The Things Network**, but it can be easily configured fo
 
 ## Installation
 1. Configure parameters in **lorawanaprsgateway.py** (credentials for connecting MQTT broker, topic, credentials for connecting to   
-APRS-IS, callsigns etc.)
+APRS-IS, callsigns etc.).
 2. Start the **lorawanaprsgateway.py**.
+3. Follow tracked object on [aprs.fi](https://aprs.fi/).
+
+
+[Example of tracking](images/screenshot.png)
