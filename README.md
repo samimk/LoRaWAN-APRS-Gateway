@@ -11,4 +11,4 @@ APRS-IS, callsigns etc.).
 3. Follow tracked object on [aprs.fi](https://aprs.fi/).
 
 
-[Example of tracking](images/screenshot.png)
+![Example of tracking](images/screenshot.png)
