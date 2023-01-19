@@ -1,6 +1,6 @@
 # LoRaWAN-APRS-Gateway
 
-This one afternoon project, which enables connecting MQTT broker in order to fetch object location from LoRaWAN network (latitude, longitude and altitude). Location information is then forwarded to APRS-IS, so object can be tracked on [aprs.fi](https://aprs.fi/).
+This is one afternoon project, which enables connecting MQTT broker in order to fetch object location from LoRaWAN network (latitude, longitude and altitude). Location information is then forwarded to APRS-IS, so object can be tracked on [aprs.fi](https://aprs.fi/).
 
 The script works with **The Things Network**, but it can be easily configured for other LoRaWAN networks.
 
