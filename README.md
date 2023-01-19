@@ -12,3 +12,5 @@ APRS-IS, callsigns etc.).
 
 
 ![Example of tracking](images/screenshot.png)
+
+File **htcc-ab02s.js** contains example of TTN payload formatter for module **Heltec CubeCell HTCC-AB02S** (with built-in GPS).
