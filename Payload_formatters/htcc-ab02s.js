@@ -1,3 +1,8 @@
+/*  
+//    TTN payload formatter for module Heltec HTCC-AB02S
+//    Payload as in example LoRaWAN_OnBoardGPS_Air530Z.ino by Heltec
+*/
+
 function decodeUplink(input) {
   var decoded = {};
 
