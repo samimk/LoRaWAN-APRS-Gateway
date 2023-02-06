@@ -100,9 +100,11 @@ client.on_connect = on_connect
 client.on_message = on_message
 client.on_disconnect = on_disconnect
 
-try:
-    client.connect(broker,mqtt_port,60)
-    client.loop_forever()
-except:
-    print("Failed to connect to MQTT server")
-    sys.exit(1)
+while True:
+    try:
+        client.connect(broker,mqtt_port,60)
+        client.loop_forever()
+    except:
+        print("Failed to connect to MQTT server")
+        print("Retrying in 60 seconds ...")
+        time.sleep(60)
