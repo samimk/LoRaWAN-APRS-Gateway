@@ -81,7 +81,7 @@ def on_message(client, userdata, msg):
         timestamp=time.localtime()    
         aprslat=str(int(lat))+'%.2f' % round(60*(lat-int(lat)),2)
         aprslon='0'+str(int(lon))+'%.2f' % round(60*(lon-int(lon)),2)       
-        packet = callsign+">APRS,TCPIP*,qAC,WIDE1-1:;"+objcallsign+"*111111z"+aprslat+latside+table+aprslon+lonside+symbol+"ALT="+str(round(alt,2))+'m asl'+message
+        packet = callsign+">LORAGW,TCPIP*,qAC,WIDE1-1:;"+objcallsign+"*111111z"+aprslat+latside+table+aprslon+lonside+symbol+"ALT="+str(round(alt,2))+'m asl'+message
         a = aprs.TCP(aprsUser,aprsPass)
         a.start()
         frame = aprs.parse_frame(packet)
