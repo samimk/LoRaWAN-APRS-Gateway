@@ -86,7 +86,7 @@ def on_message(client, userdata, msg):
         a.start()
         frame = aprs.parse_frame(packet)
         a.send(frame)
-        log_file.write(str(timestamp[0])+"-"+str(timestamp[1])+"-"+str(timestamp[2])+" "+str(timestamp[3])+":"+str(timestamp[4])+":"+str(timestamp[5])+"  "+packet)
+        log_file.write(str(timestamp[0])+"-"+str(timestamp[1])+"-"+str(timestamp[2])+" "+str(timestamp[3])+":"+str(timestamp[4])+":"+str(timestamp[5])+"  "+packet+"\n")
         time.sleep(1)
         log_file.close()
         print(packet)
